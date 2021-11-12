@@ -1,0 +1,16 @@
+name: hot-search-sentiment
+channels:
+  - conda-forge
+dependencies:
+  - pandas=1.3.2
+  - numpy=1.20.3
+  - python=3.9.7
+  - worldcloud=1.8.1
+  - jupyterlab=3.1.7
+  - plotly=5.1.0
+  - selenium=3.141.0
+  - bs4=4.10.0
+  - pip:
+    - webdriver-manager==3.4.2
+    - googletrans=3.1.0a0
+
